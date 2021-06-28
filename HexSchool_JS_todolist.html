@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO LIST</title>
+    <link rel="stylesheet" href="todolist.css">
+</head>
+<body>
+    <h1>TODO LIST</h1>
+    <div class="input">
+        <input type="text" class="txt" placeholder="新增代辦事項">
+        <input type="button" class="save" value="+">
+    </div>
+    <div class="content">
+        <div class="filter">
+            <input type="button" value="全部">
+            <input type="button" value="待完成">
+            <input type="button" value="已完成">
+        </div>
+        <ul class="list"></ul>
+        <div class="footer">
+            <p class="complete">0 個待完成項目</p>
+            <input type="button" class="deleteComplete" value="清除已完成項目">
+        </div>
+    </div>
+    <script src="todolist.js"></script>
+</body>
+</html>

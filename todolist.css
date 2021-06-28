@@ -1,0 +1,152 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "BalooTamma2", "NotoSansCJKtc";
+    background-image: linear-gradient(174deg, #ffd370 2%, #ffd370 46%, #ffffff 46%, #ffffff 100%, #e8e8e8 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #333333;
+}
+h1 {
+    font-family: "BalooTamma2";
+	font-size: 48px;
+	color: #333333;
+	letter-spacing: 8.75px;
+	text-align: center;
+	margin-top: 48px;
+}
+.input {
+    max-width: 500px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+	box-shadow: 0 0 15px 0 rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    padding: 4px;
+	margin-top: 26px;
+}
+.input .txt {
+    padding: 10px 0;
+    margin-left: 20px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+.input .save {
+    display: block;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    background: #333333;
+    font-size: 32px;
+    line-height: 20px;
+    border-radius: 10px;
+}
+.content {
+    max-width: 500px;
+    padding-bottom: 32px;
+    margin: 0 auto;
+    margin-bottom: 92px;
+    background: #fff;
+	box-shadow: 0 0 15px 0 rgb(0 0 0 / 10%);
+    border-radius: 10px;
+}
+.content .filter input {
+    background: none;
+    border: none;
+    border-bottom: 2px solid #efefef;
+    color: #9f9a91;
+    font-size: 14px;
+    padding: 24px 0;
+    width: 32.8%;
+}
+.content .filter input:active {
+	color: #333333;
+    font-weight: bold;
+    border-bottom: 2px solid #333333;
+}
+
+.list {
+    padding: 12px;
+	display: flex;
+    flex-direction: column;
+}
+.list li {
+    padding: 12px;
+	display: flex;
+    justify-content: space-between;
+}
+.list .delete {
+    color: gray;
+    background: none;
+    border: none;
+}
+.footer {
+    width: 90%;
+    padding-top: 24px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+.footer .deleteComplete {
+    background: none;
+    border: none;
+    color: #9f9a91;
+    font-size: 14px;
+}
